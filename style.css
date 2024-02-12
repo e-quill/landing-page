@@ -14,3 +14,33 @@ body {
   padding: 30px;
   font-family: sans-serif;
 }
+
+.header{
+  display: flex;
+  background-color: #1F2937;;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px
+}
+
+.right{
+  margin-left: auto;
+}
+
+.header-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.links{
+  size: 18px;
+  color: #E5E7EB;
+  font-family: sans-serif;
+}
