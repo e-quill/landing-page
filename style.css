@@ -39,8 +39,9 @@ ul {
   font-weight: bold;
 }
 
-.links{
+a {
   size: 18px;
   color: #E5E7EB;
   font-family: sans-serif;
+  text-decoration: none;
 }
