@@ -16,7 +16,7 @@ body {
 
 .header{
   display: flex;
-  background-color: #1F2937;;
+  background-color: #1F2937;
   padding: 0 100px;
   align-items: center;
 }
@@ -29,7 +29,7 @@ ul {
   gap: 20px
 }
 
-.right{
+.header-right{
   margin-left: auto;
 }
 
@@ -66,4 +66,47 @@ a {
   font-weight: bold;
   font-size: 20px;
   font-family: sans-serif;
+}
+
+.s1{
+  display: flex;
+  background-color: #1F2937;
+  padding:  100px;
+  gap: 40px;
+  /* justify-content: center; */
+}
+
+.s1-left .s1-bold{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  font-family: sans-serif;
+}
+
+.s1-left .s1-button{
+  background-color: #3882F6 ;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+.s1-right {
+  color: #E5E7EB;
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.s1-text{
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.image-section{
+  display: flex;
 }
